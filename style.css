@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(71, 115, 71);
+}
+#pannel{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#ptop{
+    padding: 0px 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51, 106, 51);
+   
+}
+.elem {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+.elem h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.box{
+    color: rgb(48, 102, 48);
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+#pbtm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100%-100px);
+   
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color:  rgb(48, 102, 48);
+    color: white;
+    border-radius: 50%;
+    font-weight: 800;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(30, 64, 30);
+}
+   
